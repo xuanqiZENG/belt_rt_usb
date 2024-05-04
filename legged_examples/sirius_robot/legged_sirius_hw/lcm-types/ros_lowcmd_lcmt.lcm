@@ -1,0 +1,6 @@
+struct ros_lowcmd_lcmt
+{
+    float q[12];
+    float qd[12];
+    float tau_ff[12];
+}
